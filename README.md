@@ -1,1 +1,2 @@
 # Web-Development
+I have developed a web using HTML,CSS,Javascript and Php.During this project i have improved my skill to find the bugs and methods for logic building.This website contains a login page where user will be able to enter after validating himself and basically website is about store room where item will be stored and the main admin will validate every product.I will be keeping changes timely.
