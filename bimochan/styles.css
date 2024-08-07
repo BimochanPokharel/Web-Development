@@ -1,0 +1,145 @@
+body 
+{
+    background-color: #F5E2AA;
+    
+}
+
+
+.header
+{
+  text-align: center;
+  font-family: Fantasy;
+
+}
+
+.form1
+{
+  background-color:rgb(243, 222, 101);
+}
+
+
+
+
+*
+{
+  box-sizing: border-box;
+}
+ul {
+ 
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow:hidden;
+    background-color: #6C5F37;
+   
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+   
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+    
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+
+  .form1{
+    border: 2px solid black;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 10px;
+    
+    
+  }
+
+
+
+
+
+
+
+
+
+
+  /* insertitem......................................... */
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+    font-weight: bolder;
+  }
+
+  input[type="text"],textarea,select
+  {
+    width: 100%;
+    padding:12px;
+    border: 1px solid black;
+    border-radius: 10px;
+    resize: vertical;
+    cursor: pointer;
+  
+  }
+.pass
+  {
+    width: 100%;
+    padding:12px;
+    border: 1px solid black;
+    border-radius: 10px;
+    resize: vertical;
+    cursor: pointer;
+  
+
+  }
+  
+
+  input[type="submit"]
+  {
+    background-color: green;
+    color: beige;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 90%;
+    margin: 10px;
+    margin-left: 70px;
+  
+  }
+
+  
+
+
+
+  /* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
