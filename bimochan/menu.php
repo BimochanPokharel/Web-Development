@@ -32,6 +32,7 @@ if(!isset($_SESSION['username']))
 
 
 <!-- <li><a href="delete.php">Delete Item</a></li> -->
+    <h1>Hello</h1>
 </ul>
 
 </div>
